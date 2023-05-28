@@ -1,0 +1,5 @@
+project: libpqxx
+target: append
+cmds:
+  - cmd: /fuzz_append
+    libfuzzer: true
